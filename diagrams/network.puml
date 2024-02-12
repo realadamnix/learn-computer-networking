@@ -1,0 +1,32 @@
+@startuml Networking Example
+
+' Define LAN A
+node "LAN A" {
+    [Device A1] as A1
+    [Device A2] as A2
+    [Device A3] as A3
+}
+
+' Define LAN B
+node "LAN B" {
+    [Device B1] as B1
+    [Device B2] as B2
+    [Device B3] as B3
+}
+
+' Define the Router
+node "Router" {
+    [Router] as R
+}
+
+' Connect LAN A devices to Router
+A1 -- R : Trunk
+A2 -- R : Trunk
+A3 -- R : Trunk
+
+' Connect LAN B devices to Router
+B1 -- R : Trunk
+B2 -- R : Trunk
+B3 -- R : Trunk
+
+@enduml
