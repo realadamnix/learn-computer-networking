@@ -1,0 +1,16 @@
+{
+	"recommendations": [
+		"cweijan.vscode-office",
+		"maptz.camelcasenavigation",
+		"streetsidesoftware.code-spell-checker",
+		"george-alisson.html-preview-vscode",
+		"yzhang.markdown-all-in-one",
+		"bierner.markdown-mermaid",
+		"darkriszty.markdown-table-prettify",
+		"davidanson.vscode-markdownlint",
+		"wraith13.open-in-github-desktop",
+		"jebbs.plantuml",
+		"gruntfuggly.todo-tree",
+		"vscode-icons-team.vscode-icons"
+	]
+}

@@ -1,4 +1,4 @@
-@startuml OSI Model
+@startuml osi-model
 skinparam linetype ortho
 
 rectangle "7 | Application Layer" as ApplicationLayer #LightBlue
