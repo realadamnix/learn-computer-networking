@@ -1,0 +1,38 @@
+@startuml OSI Model
+skinparam linetype ortho
+
+rectangle "7 | Application Layer" as ApplicationLayer #LightBlue
+rectangle "6 | Presentation Layer" as PresentationLayer #LightGreen
+rectangle "5 | Session Layer" as SessionLayer #LightYellow
+rectangle "4 | Transport Layer" as TransportLayer #LightPink
+rectangle "3 | Network Layer" as NetworkLayer #LightGray
+rectangle "2 | Data Link Layer" as DataLinkLayer #LightCyan
+rectangle "1 | Physical Layer" as PhysicalLayer #LightSalmon
+
+ApplicationLayer --> PresentationLayer
+PresentationLayer --> SessionLayer
+SessionLayer --> TransportLayer
+TransportLayer --> NetworkLayer
+NetworkLayer --> DataLinkLayer
+DataLinkLayer --> PhysicalLayer
+
+
+
+rectangle "Human-computer interaction layer, where\napplications can access the network services" as ApplicationLayerDescription
+rectangle "Ensures that data is in a usable format and is\nwhere data encryption occurs" as PresentationLayerDescription
+rectangle "Maintains connections and is responsible for\ncontrolling ports and sessions" as SessionLayerDescription
+rectangle "Transmits data using transmission protocols\nincluding TCP and UDP" as TransportLayerDescription
+rectangle "Decides which physical path the data will take" as NetworkLayerDescription
+rectangle "Defines the format of data on the network.\nTransmits raw bit stream over the physical\nmedium" as PhysicalLayerDescription
+rectangle "Responsible for the transmission of data\nbetween two devices" as DataLinkLayerDescription
+
+ApplicationLayerDescription --> PresentationLayerDescription
+PresentationLayerDescription --> SessionLayerDescription
+SessionLayerDescription --> TransportLayerDescription
+TransportLayerDescription --> NetworkLayerDescription
+NetworkLayerDescription --> DataLinkLayerDescription
+DataLinkLayerDescription --> PhysicalLayerDescription
+
+@enduml
+
+@enduml
