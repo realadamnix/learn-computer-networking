@@ -30,6 +30,9 @@ What is the ethernet and how does it work?
 - Layer 2 is necessary for local network communication within the same subnet or VLAN, as it provides the necessary addressing and data link services for devices to communicate directly with each other.
 - Layer 3 becomes necessary when communication needs to occur between different networks or subnets, as it enables routing and forwarding of packets between networks based on IP addresses.
 
+[OSI Model](diagrams/osi-model.puml)
+>> OSI Model
+
 ## Different Network Threats and How They Come About
 
 - Network threats include various types of malicious activities aimed at disrupting, intercepting, or gaining unauthorized access to network resources and data.

@@ -1,6 +1,39 @@
 
 # Questions
 
+# ARP (Address Resolution Protocol)
+
+## Objectives
+
+- To make a distinction between logical address (IP address) and physical address (MAC address).
+- To describe how the mapping of a logical address to a physical address can be static or dynamic.
+- To show how the address resolution protocol (ARP) is used to dynamically map a logical address to a physical address.
+
+
+- To show that the proxy ARP can be used to create a subnetting effect.
+- To discuss ATMARP, which maps the IP addresses when the underlying network is an ATM WAN.
+- To show that an ARP software package can be made of five components.
+- To show the pseudocode for each module used in the ARP software package.
+
+## What is ARP?
+
+ARP (Address Resolution Protocol) is a protocol used to map an IP address to a MAC address within a local network. It is commonly used in Ethernet networks and is essential for communication between devices on the same network segment. The ARP protocol allows devices to discover the MAC address associated with a specific IP address, enabling them to send data packets to the correct destination.
+
+![1709222047619](image/questions/position-of-arp-in-tcp-ip-protocol.png)
+>> Position of ARP in TCP/IP protocol suite
+
+## How does ARP work?
+
+
+ICMP (Internet Control Message Protocol) is a network layer protocol used to report errors and exchange control messages between devices on an IP network. It is an integral part of the Internet Protocol (IP) suite and is used for various purposes, including diagnosing network connectivity issues, managing network devices, and facilitating the exchange of error messages between network nodes.
+
+IGMP (Internet Group Management Protocol) is a network layer protocol that allows several devices to share one IP address so they can all receive the same data.[^1] Networked devices use IGMP to join and leave multicasting groups, and each multicasting group shares an IP address.
+
+
+
+![ARP Packet](image/questions/arp-packet.png)
+> ARP Packet Diagram
+
 ## What is a default Gateway?
 
 ## How is a default gateway is configured?
