@@ -1,0 +1,7 @@
+graph TD
+    ApplicationLayer[Application Layer] --> PresentationLayer[Presentation Layer]
+    PresentationLayer --> SessionLayer[Session Layer]
+    SessionLayer --> TransportLayer[Transport Layer]
+    TransportLayer --> NetworkLayer[Network Layer]
+    NetworkLayer --> DataLinkLayer[Data Link Layer]
+    DataLinkLayer --> PhysicalLayer[Physical Layer]

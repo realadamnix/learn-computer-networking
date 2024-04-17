@@ -1,4 +1,4 @@
-@startuml Networking Example
+@startuml network-lans-example
 
 ' Define LAN A
 node "LAN A" {
